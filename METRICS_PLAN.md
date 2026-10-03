@@ -97,3 +97,7 @@ If a criterion is not met, the README says so in its first table.
 ## Changelog
 
 - v1 — initial plan.
+- v2 — **added** arm B2 `calendar` (retry on the 1st, 2nd and 7th) and a customer top-up behaviour in
+  the simulator, after the first dev smoke test showed a gap over B that looked too large to trust
+  (NOTES.md §4). Both changes make the comparison harder for Dobaara. Made before any test-split run.
+  Nothing was removed; the primary metric (C − B) is unchanged, and C − B2 is reported next to it.

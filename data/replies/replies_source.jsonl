@@ -1,0 +1,180 @@
+{"id": "r001", "sent": "2026-10-04", "text": "salary aane pe kar dunga bhai", "intent": "promise_to_pay", "date_rule": null}
+{"id": "r002", "sent": "2026-10-04", "text": "5 tarik ko pakka kar dunga", "intent": "promise_to_pay", "date_rule": "dom:5"}
+{"id": "r003", "sent": "2026-10-04", "text": "kal tak bhej dunga", "intent": "promise_to_pay", "date_rule": "+1"}
+{"id": "r004", "sent": "2026-10-04", "text": "Will pay by 10th", "intent": "promise_to_pay", "date_rule": "dom:10"}
+{"id": "r005", "sent": "2026-10-04", "text": "abhi paise nahi hai, 7 ko salary aayegi tab kar dunga", "intent": "promise_to_pay", "date_rule": "dom:7"}
+{"id": "r006", "sent": "2026-10-04", "text": "parso kar dunga sir", "intent": "promise_to_pay", "date_rule": "+2"}
+{"id": "r007", "sent": "2026-10-04", "text": "ok", "intent": "other", "date_rule": null}
+{"id": "r008", "sent": "2026-10-04", "text": "wrong number hai ye", "intent": "wrong_person", "date_rule": null}
+{"id": "r009", "sent": "2026-10-04", "text": "maine ye subscription kabhi liya hi nahi, fraud hai", "intent": "dispute", "date_rule": null}
+{"id": "r010", "sent": "2026-10-04", "text": "already paid yesterday through gpay", "intent": "already_paid", "date_rule": null}
+{"id": "r011", "sent": "2026-10-04", "text": "mujhe nahi chahiye ye plan, band karo", "intent": "cancel", "date_rule": null}
+{"id": "r012", "sent": "2026-10-04", "text": "job chali gayi hai, abhi possible nahi", "intent": "hardship", "date_rule": null}
+{"id": "r013", "sent": "2026-10-04", "text": "haan haan bhej dunga 🙄", "intent": "promise_to_pay", "date_rule": null}
+{"id": "r014", "sent": "2026-10-04", "text": "kal kar diya tha check karo", "intent": "already_paid", "date_rule": null}
+{"id": "r015", "sent": "2026-10-04", "text": "cancel mat karna, salary aate hi kar dunga", "intent": "promise_to_pay", "date_rule": null}
+{"id": "r016", "sent": "2026-10-04", "text": "kaun ho aap?", "intent": "other", "date_rule": null}
+{"id": "r017", "sent": "2026-10-04", "text": "ye kis cheez ka paisa hai", "intent": "other", "date_rule": null}
+{"id": "r018", "sent": "2026-10-04", "text": "monday ko kar dunga", "intent": "promise_to_pay", "date_rule": "wd:mon"}
+{"id": "r019", "sent": "2026-10-04", "text": "2-3 din me ho jayega", "intent": "promise_to_pay", "date_rule": "+3"}
+{"id": "r020", "sent": "2026-10-04", "text": "month end tak de dunga", "intent": "promise_to_pay", "date_rule": "eom"}
+{"id": "r021", "sent": "2026-10-04", "text": "STOP", "intent": "cancel", "date_rule": null}
+{"id": "r022", "sent": "2026-10-04", "text": "मैं कल पेमेंट कर दूंगा", "intent": "promise_to_pay", "date_rule": "+1"}
+{"id": "r023", "sent": "2026-10-04", "text": "मुझे ये सर्विस नहीं चाहिए", "intent": "cancel", "date_rule": null}
+{"id": "r024", "sent": "2026-10-04", "text": "पैसे भेज दिया है", "intent": "already_paid", "date_rule": null}
+{"id": "r025", "sent": "2026-10-04", "text": "next week pakka", "intent": "promise_to_pay", "date_rule": null}
+{"id": "r026", "sent": "2026-10-04", "text": "bro balance khatam hai, 1st ko salary aati hai tab", "intent": "promise_to_pay", "date_rule": "dom:1"}
+{"id": "r027", "sent": "2026-10-04", "text": "papa hospital me hai, abhi nahi ho payega", "intent": "hardship", "date_rule": null}
+{"id": "r028", "sent": "2026-10-04", "text": "I never signed up for this. Who authorised this debit?", "intent": "dispute", "date_rule": null}
+{"id": "r029", "sent": "2026-10-04", "text": "Paid just now, pls check", "intent": "already_paid", "date_rule": null}
+{"id": "r030", "sent": "2026-10-04", "text": "aaj shaam tak kar deta hu", "intent": "promise_to_pay", "date_rule": "+0"}
+{"id": "r031", "sent": "2026-10-04", "text": "Please cancel my subscription", "intent": "cancel", "date_rule": null}
+{"id": "r032", "sent": "2026-10-04", "text": "not my account, I don't know this person", "intent": "wrong_person", "date_rule": null}
+{"id": "r033", "sent": "2026-10-04", "text": "thoda time do, 15 tak clear kar dunga", "intent": "promise_to_pay", "date_rule": "dom:15"}
+{"id": "r034", "sent": "2026-10-04", "text": "account me paise daal diye hai ab try karo", "intent": "promise_to_pay", "date_rule": "+0"}
+{"id": "r035", "sent": "2026-10-04", "text": "Hi, can you retry on 8th? Salary comes on 7th", "intent": "promise_to_pay", "date_rule": "dom:8"}
+{"id": "r036", "sent": "2026-10-04", "text": "kitna bacha hai?", "intent": "other", "date_rule": null}
+{"id": "r037", "sent": "2026-10-04", "text": "mera number kisi ne galat diya hoga, main ye account nahi chalata", "intent": "wrong_person", "date_rule": null}
+{"id": "r038", "sent": "2026-10-04", "text": "do din me bhar dunga", "intent": "promise_to_pay", "date_rule": "+2"}
+{"id": "r039", "sent": "2026-10-04", "text": "teen din baad karta hu", "intent": "promise_to_pay", "date_rule": "+3"}
+{"id": "r040", "sent": "2026-10-04", "text": "pehle bhi 2 baar paisa kata tha, refund do pehle", "intent": "dispute", "date_rule": null}
+{"id": "r041", "sent": "2026-10-04", "text": "plan downgrade kar sakte ho? itna afford nahi hota ab", "intent": "hardship", "date_rule": null}
+{"id": "r042", "sent": "2026-10-04", "text": "unsubscribe", "intent": "cancel", "date_rule": null}
+{"id": "r043", "sent": "2026-10-04", "text": "ho gaya payment", "intent": "already_paid", "date_rule": null}
+{"id": "r044", "sent": "2026-10-04", "text": "friday tak karunga", "intent": "promise_to_pay", "date_rule": "wd:fri"}
+{"id": "r045", "sent": "2026-10-04", "text": "tankha milte hi bhar dunga", "intent": "promise_to_pay", "date_rule": null}
+{"id": "r046", "sent": "2026-10-04", "text": "Bhai kal pakka", "intent": "promise_to_pay", "date_rule": "+1"}
+{"id": "r047", "sent": "2026-10-04", "text": "busy hu baad me baat karte hai", "intent": "other", "date_rule": null}
+{"id": "r048", "sent": "2026-10-04", "text": "I'll clear it by 20 Oct", "intent": "promise_to_pay", "date_rule": "abs:2026-10-20"}
+{"id": "r049", "sent": "2026-10-04", "text": "nahi dunga, service bekaar hai", "intent": "cancel", "date_rule": null}
+{"id": "r050", "sent": "2026-10-04", "text": "business band ho gaya, kuch time lagega", "intent": "hardship", "date_rule": null}
+{"id": "r051", "sent": "2026-10-12", "text": "kal kar dunga", "intent": "promise_to_pay", "date_rule": "+1"}
+{"id": "r052", "sent": "2026-10-12", "text": "5 tarik ko salary aati hai, tab kar dunga", "intent": "promise_to_pay", "date_rule": "dom:5"}
+{"id": "r053", "sent": "2026-10-12", "text": "1st ko pakka", "intent": "promise_to_pay", "date_rule": "dom:1"}
+{"id": "r054", "sent": "2026-10-12", "text": "Monday ko try karna", "intent": "promise_to_pay", "date_rule": "wd:mon"}
+{"id": "r055", "sent": "2026-10-12", "text": "itna paisa kyu kata? maine toh 199 wala liya tha", "intent": "dispute", "date_rule": null}
+{"id": "r056", "sent": "2026-10-12", "text": "paytm se kar diya hai abhi", "intent": "already_paid", "date_rule": null}
+{"id": "r057", "sent": "2026-10-12", "text": "band kardo ye autopay", "intent": "cancel", "date_rule": null}
+{"id": "r058", "sent": "2026-10-12", "text": "medical emergency hai, next month dekhte hai", "intent": "hardship", "date_rule": null}
+{"id": "r059", "sent": "2026-10-12", "text": "20 ko kar dungi", "intent": "promise_to_pay", "date_rule": "dom:20"}
+{"id": "r060", "sent": "2026-10-12", "text": "Who is this?", "intent": "other", "date_rule": null}
+{"id": "r061", "sent": "2026-10-12", "text": "Will pay tomorrow morning", "intent": "promise_to_pay", "date_rule": "+1"}
+{"id": "r062", "sent": "2026-10-12", "text": "salary late hai is mahine, 18 tak aayegi", "intent": "promise_to_pay", "date_rule": "dom:18"}
+{"id": "r063", "sent": "2026-10-12", "text": "pls dont deduct again, I want to cancel", "intent": "cancel", "date_rule": null}
+{"id": "r064", "sent": "2026-10-12", "text": "ye mera number nahi hai, galat number", "intent": "wrong_person", "date_rule": null}
+{"id": "r065", "sent": "2026-10-12", "text": "paanch din me kar dunga", "intent": "promise_to_pay", "date_rule": "+5"}
+{"id": "r066", "sent": "2026-10-12", "text": "hmm", "intent": "other", "date_rule": null}
+{"id": "r067", "sent": "2026-10-12", "text": "kitne ka due hai? link bhejo", "intent": "other", "date_rule": null}
+{"id": "r068", "sent": "2026-10-12", "text": "आज शाम तक कर दूंगा", "intent": "promise_to_pay", "date_rule": "+0"}
+{"id": "r069", "sent": "2026-10-12", "text": "मैंने कभी ये प्लान लिया ही नहीं, ये धोखा है", "intent": "dispute", "date_rule": null}
+{"id": "r070", "sent": "2026-10-12", "text": "naukri chali gayi hai sir, please kuch din ruk jao", "intent": "hardship", "date_rule": null}
+{"id": "r071", "sent": "2026-10-12", "text": "already done via phonepe", "intent": "already_paid", "date_rule": null}
+{"id": "r072", "sent": "2026-10-12", "text": "Sunday ko bhar dunga", "intent": "promise_to_pay", "date_rule": "wd:sun"}
+{"id": "r073", "sent": "2026-10-12", "text": "Plz retry after 15th", "intent": "promise_to_pay", "date_rule": "dom:15"}
+{"id": "r074", "sent": "2026-10-12", "text": "I don't want this anymore", "intent": "cancel", "date_rule": null}
+{"id": "r075", "sent": "2026-10-12", "text": "consumer court jaunga, bina permission ke paisa kaat rahe ho", "intent": "dispute", "date_rule": null}
+{"id": "r076", "sent": "2026-10-12", "text": "thik hai kar dunga", "intent": "promise_to_pay", "date_rule": null}
+{"id": "r077", "sent": "2026-10-12", "text": "Paisa daal diya account me, ab kaat lo", "intent": "promise_to_pay", "date_rule": "+0"}
+{"id": "r078", "sent": "2026-10-12", "text": "main woh nahi hu jise aap dhundh rahe ho", "intent": "wrong_person", "date_rule": null}
+{"id": "r079", "sent": "2026-10-12", "text": "pichle mahine ka bhi refund nahi aaya, complaint karunga", "intent": "dispute", "date_rule": null}
+{"id": "r080", "sent": "2026-10-12", "text": "end of month tak ho jayega", "intent": "promise_to_pay", "date_rule": "eom"}
+{"id": "r081", "sent": "2026-10-12", "text": "parso pakka sir", "intent": "promise_to_pay", "date_rule": "+2"}
+{"id": "r082", "sent": "2026-10-12", "text": "bhai abhi bahut tight chal raha hai, 2 mahine ka gap chahiye", "intent": "hardship", "date_rule": null}
+{"id": "r083", "sent": "2026-10-12", "text": "Ok noted", "intent": "other", "date_rule": null}
+{"id": "r084", "sent": "2026-10-12", "text": "mujhe bataya hi nahi tha ki auto debit hoga", "intent": "dispute", "date_rule": null}
+{"id": "r085", "sent": "2026-10-12", "text": "Gpay se 499 bhej diya", "intent": "already_paid", "date_rule": null}
+{"id": "r086", "sent": "2026-10-12", "text": "17/10 ko kar dunga", "intent": "promise_to_pay", "date_rule": "abs:2026-10-17"}
+{"id": "r087", "sent": "2026-10-12", "text": "ab nahi chahiye kuch bhi, number block kar raha hu", "intent": "cancel", "date_rule": null}
+{"id": "r088", "sent": "2026-10-12", "text": "Can I pay half now and half on 25th?", "intent": "promise_to_pay", "date_rule": "dom:25"}
+{"id": "r089", "sent": "2026-10-12", "text": "ruk jao thoda", "intent": "other", "date_rule": null}
+{"id": "r090", "sent": "2026-10-12", "text": "Sorry bhool gaya tha, kal pakka kar dunga", "intent": "promise_to_pay", "date_rule": "+1"}
+{"id": "r091", "sent": "2026-10-27", "text": "1 tarik ko salary aayegi", "intent": "promise_to_pay", "date_rule": "dom:1"}
+{"id": "r092", "sent": "2026-10-27", "text": "month end me kar dunga", "intent": "promise_to_pay", "date_rule": "eom"}
+{"id": "r093", "sent": "2026-10-27", "text": "kal paise aa jayenge, parso try karna", "intent": "promise_to_pay", "date_rule": "+2"}
+{"id": "r094", "sent": "2026-10-27", "text": "galat banda hai bhai", "intent": "wrong_person", "date_rule": null}
+{"id": "r095", "sent": "2026-10-27", "text": "subscription cancel kar do please", "intent": "cancel", "date_rule": null}
+{"id": "r096", "sent": "2026-10-27", "text": "I already paid on 25th, check your records", "intent": "already_paid", "date_rule": null}
+{"id": "r097", "sent": "2026-10-27", "text": "next salary pe", "intent": "promise_to_pay", "date_rule": null}
+{"id": "r098", "sent": "2026-10-27", "text": "Saturday tak bhej dunga", "intent": "promise_to_pay", "date_rule": "wd:sat"}
+{"id": "r099", "sent": "2026-10-27", "text": "Mere account se bina bataye paise kaate, ye unauthorised hai", "intent": "dispute", "date_rule": null}
+{"id": "r100", "sent": "2026-10-27", "text": "mummy ki surgery hai, abhi kuch nahi bhar sakta", "intent": "hardship", "date_rule": null}
+{"id": "r101", "sent": "2026-10-27", "text": "haan", "intent": "other", "date_rule": null}
+{"id": "r102", "sent": "2026-10-27", "text": "4 din me ho jayega boss", "intent": "promise_to_pay", "date_rule": "+4"}
+{"id": "r103", "sent": "2026-10-27", "text": "I will make the payment on 3rd Nov", "intent": "promise_to_pay", "date_rule": "abs:2026-11-03"}
+{"id": "r104", "sent": "2026-10-27", "text": "kr dunga yr tension mat lo", "intent": "promise_to_pay", "date_rule": null}
+{"id": "r105", "sent": "2026-10-27", "text": "bhaiya ye kya hai, kis cheez ka msg hai", "intent": "other", "date_rule": null}
+{"id": "r106", "sent": "2026-10-27", "text": "I lost my job last month, can we pause it?", "intent": "hardship", "date_rule": null}
+{"id": "r107", "sent": "2026-10-27", "text": "dont message me again", "intent": "cancel", "date_rule": null}
+{"id": "r108", "sent": "2026-10-27", "text": "आज ही भर देता हूँ", "intent": "promise_to_pay", "date_rule": "+0"}
+{"id": "r109", "sent": "2026-10-27", "text": "बंद कर दो ये", "intent": "cancel", "date_rule": null}
+{"id": "r110", "sent": "2026-10-27", "text": "kal hi bhar diya tha bhai", "intent": "already_paid", "date_rule": null}
+{"id": "r111", "sent": "2026-10-27", "text": "6 ko sure", "intent": "promise_to_pay", "date_rule": "dom:6"}
+{"id": "r112", "sent": "2026-10-27", "text": "thursday", "intent": "promise_to_pay", "date_rule": "wd:thu"}
+{"id": "r113", "sent": "2026-10-27", "text": "Mera paisa wapas karo pehle, double kata hai", "intent": "dispute", "date_rule": null}
+{"id": "r114", "sent": "2026-10-27", "text": "kaam nahi chal raha abhi, income nahi hai", "intent": "hardship", "date_rule": null}
+{"id": "r115", "sent": "2026-10-27", "text": "Retry karo ab, balance hai", "intent": "promise_to_pay", "date_rule": "+0"}
+{"id": "r116", "sent": "2026-10-27", "text": "i am not ravi, wrong person", "intent": "wrong_person", "date_rule": null}
+{"id": "r117", "sent": "2026-10-27", "text": "agle hafte", "intent": "promise_to_pay", "date_rule": null}
+{"id": "r118", "sent": "2026-10-27", "text": "dekhta hu", "intent": "other", "date_rule": null}
+{"id": "r119", "sent": "2026-10-27", "text": "kya main EMI me de sakta hu? ek saath nahi hoga", "intent": "hardship", "date_rule": null}
+{"id": "r120", "sent": "2026-10-27", "text": "10 Nov tak", "intent": "promise_to_pay", "date_rule": "abs:2026-11-10"}
+{"id": "r121", "sent": "2026-09-30", "text": "kal salary aayegi, kal hi kar dunga", "intent": "promise_to_pay", "date_rule": "+1"}
+{"id": "r122", "sent": "2026-09-30", "text": "3 tarikh tak", "intent": "promise_to_pay", "date_rule": "dom:3"}
+{"id": "r123", "sent": "2026-09-30", "text": "pay kar diya hai, screenshot bheju?", "intent": "already_paid", "date_rule": null}
+{"id": "r124", "sent": "2026-09-30", "text": "Mujhe yeh service nahi chahiye, refund bhi chahiye", "intent": "cancel", "date_rule": null}
+{"id": "r125", "sent": "2026-09-30", "text": "kisne diya mera number? main koi subscription nahi leta", "intent": "wrong_person", "date_rule": null}
+{"id": "r126", "sent": "2026-09-30", "text": "1st Oct ko auto debit kar lena", "intent": "promise_to_pay", "date_rule": "abs:2026-10-01"}
+{"id": "r127", "sent": "2026-09-30", "text": "please wait, I will do it", "intent": "promise_to_pay", "date_rule": null}
+{"id": "r128", "sent": "2026-09-30", "text": "Today itself", "intent": "promise_to_pay", "date_rule": "+0"}
+{"id": "r129", "sent": "2026-09-30", "text": "mera card block ho gaya hai, naya lagata hu", "intent": "other", "date_rule": null}
+{"id": "r130", "sent": "2026-09-30", "text": "ye scam hai kya?", "intent": "other", "date_rule": null}
+{"id": "r131", "sent": "2026-09-30", "text": "saat din do", "intent": "promise_to_pay", "date_rule": "+7"}
+{"id": "r132", "sent": "2026-09-30", "text": "galti se subscribe ho gaya tha, cancel karo", "intent": "cancel", "date_rule": null}
+{"id": "r133", "sent": "2026-09-30", "text": "ghar me shaadi hai, iss mahine mushkil hai, agle mahine pakka", "intent": "promise_to_pay", "date_rule": null}
+{"id": "r134", "sent": "2026-09-30", "text": "dad ka accident hua hai please abhi call mat karo", "intent": "hardship", "date_rule": null}
+{"id": "r135", "sent": "2026-09-30", "text": "Sir I have paid 299 through link", "intent": "already_paid", "date_rule": null}
+{"id": "r136", "sent": "2026-09-30", "text": "Wednesday ko pakka", "intent": "promise_to_pay", "date_rule": "wd:wed"}
+{"id": "r137", "sent": "2026-09-30", "text": "kal se band kar do", "intent": "cancel", "date_rule": null}
+{"id": "r138", "sent": "2026-09-30", "text": "oye kaun hai", "intent": "other", "date_rule": null}
+{"id": "r139", "sent": "2026-09-30", "text": "2 din", "intent": "promise_to_pay", "date_rule": "+2"}
+{"id": "r140", "sent": "2026-09-30", "text": "maine authorise hi nahi kiya tha ye mandate", "intent": "dispute", "date_rule": null}
+{"id": "r141", "sent": "2026-10-04", "text": "pakka 9 tareekh ko", "intent": "promise_to_pay", "date_rule": "dom:9"}
+{"id": "r142", "sent": "2026-10-04", "text": "Bhai salary credit hote hi auto ho jayega na?", "intent": "other", "date_rule": null}
+{"id": "r143", "sent": "2026-10-04", "text": "abhi kar raha hu payment", "intent": "promise_to_pay", "date_rule": "+0"}
+{"id": "r144", "sent": "2026-10-04", "text": "mat bhejo ye messages", "intent": "cancel", "date_rule": null}
+{"id": "r145", "sent": "2026-10-04", "text": "UPI se bhar diya 199", "intent": "already_paid", "date_rule": null}
+{"id": "r146", "sent": "2026-10-04", "text": "Not interested anymore. Cancel it", "intent": "cancel", "date_rule": null}
+{"id": "r147", "sent": "2026-10-04", "text": "beta ye mera phone hai, mera beta use karta hai uska hoga", "intent": "wrong_person", "date_rule": null}
+{"id": "r148", "sent": "2026-10-04", "text": "kal nahi ho payega, parso karta hu", "intent": "promise_to_pay", "date_rule": "+2"}
+{"id": "r149", "sent": "2026-10-04", "text": "can't afford right now, lost income", "intent": "hardship", "date_rule": null}
+{"id": "r150", "sent": "2026-10-04", "text": "why was I charged twice last month? fix that first", "intent": "dispute", "date_rule": null}
+{"id": "r151", "sent": "2026-10-12", "text": "paise aate hi bhej dunga", "intent": "promise_to_pay", "date_rule": null}
+{"id": "r152", "sent": "2026-10-12", "text": "Bhai 14 ko pakka", "intent": "promise_to_pay", "date_rule": "dom:14"}
+{"id": "r153", "sent": "2026-10-12", "text": "Payment done ✅", "intent": "already_paid", "date_rule": null}
+{"id": "r154", "sent": "2026-10-12", "text": "cancel na karo please, 2 din me kar dunga", "intent": "promise_to_pay", "date_rule": "+2"}
+{"id": "r155", "sent": "2026-10-12", "text": "आपका नंबर गलत है, मैं ये इंसान नहीं हूँ", "intent": "wrong_person", "date_rule": null}
+{"id": "r156", "sent": "2026-10-12", "text": "स्कीम बंद करो", "intent": "cancel", "date_rule": null}
+{"id": "r157", "sent": "2026-10-12", "text": "सैलरी आने पर कर दूंगा", "intent": "promise_to_pay", "date_rule": null}
+{"id": "r158", "sent": "2026-10-12", "text": "abhi dukaan band hai, kamai nahi ho rahi", "intent": "hardship", "date_rule": null}
+{"id": "r159", "sent": "2026-10-12", "text": "Will try by Friday", "intent": "promise_to_pay", "date_rule": "wd:fri"}
+{"id": "r160", "sent": "2026-10-12", "text": "Main is plan ko continue nahi karna chahta", "intent": "cancel", "date_rule": null}
+{"id": "r161", "sent": "2026-10-12", "text": "ye 999 kis baat ka? mera plan 499 ka hai", "intent": "dispute", "date_rule": null}
+{"id": "r162", "sent": "2026-10-12", "text": "Thoda adjust karo bhai, 1 week", "intent": "promise_to_pay", "date_rule": null}
+{"id": "r163", "sent": "2026-10-12", "text": "ha bhai dekh leta hu", "intent": "other", "date_rule": null}
+{"id": "r164", "sent": "2026-10-12", "text": "bank wale ne mandate cancel kar diya shayad, naya link bhejo", "intent": "other", "date_rule": null}
+{"id": "r165", "sent": "2026-10-12", "text": "10 din me", "intent": "promise_to_pay", "date_rule": "+10"}
+{"id": "r166", "sent": "2026-10-27", "text": "kar diya bhai abhi", "intent": "already_paid", "date_rule": null}
+{"id": "r167", "sent": "2026-10-27", "text": "31 ko salary aati hai", "intent": "promise_to_pay", "date_rule": "dom:31"}
+{"id": "r168", "sent": "2026-10-27", "text": "tum log fraud ho", "intent": "dispute", "date_rule": null}
+{"id": "r169", "sent": "2026-10-27", "text": "Sir mera account freeze ho gaya hai, dusre account se bharunga", "intent": "promise_to_pay", "date_rule": null}
+{"id": "r170", "sent": "2026-10-27", "text": "kal subah 10 baje tak", "intent": "promise_to_pay", "date_rule": "+1"}
+{"id": "r171", "sent": "2026-10-27", "text": "nhi chahiye", "intent": "cancel", "date_rule": null}
+{"id": "r172", "sent": "2026-10-27", "text": "wrong no.", "intent": "wrong_person", "date_rule": null}
+{"id": "r173", "sent": "2026-10-27", "text": "abhi nahi hai paise, mai bata dunga jab hoga", "intent": "promise_to_pay", "date_rule": null}
+{"id": "r174", "sent": "2026-10-27", "text": "please stop deducting, I am unemployed now", "intent": "hardship", "date_rule": null}
+{"id": "r175", "sent": "2026-10-27", "text": "Sending now", "intent": "promise_to_pay", "date_rule": "+0"}
+{"id": "r176", "sent": "2026-10-27", "text": "2 tarik", "intent": "promise_to_pay", "date_rule": "dom:2"}
+{"id": "r177", "sent": "2026-10-27", "text": "Ye number pe message mat karo, main customer nahi hu", "intent": "wrong_person", "date_rule": null}
+{"id": "r178", "sent": "2026-10-27", "text": "kya aap date aage badha sakte ho 5 tak?", "intent": "promise_to_pay", "date_rule": "dom:5"}
+{"id": "r179", "sent": "2026-10-27", "text": "bhai pehle wala refund do phir baat karenge", "intent": "dispute", "date_rule": null}
+{"id": "r180", "sent": "2026-10-27", "text": "pay kar dunga yaar, itne message kyu", "intent": "promise_to_pay", "date_rule": null}

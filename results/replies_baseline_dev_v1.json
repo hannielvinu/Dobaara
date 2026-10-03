@@ -1,0 +1,423 @@
+{
+  "n": 116,
+  "accuracy": 0.638,
+  "macro_f1": 0.689,
+  "promise_date_exact": 0.642,
+  "promise_examples": 53,
+  "ungrounded_rate": 0.0,
+  "per_intent": {
+    "promise_to_pay": {
+      "precision": 0.968,
+      "recall": 0.566,
+      "f1": 0.714,
+      "support": 53
+    },
+    "already_paid": {
+      "precision": 0.9,
+      "recall": 0.692,
+      "f1": 0.783,
+      "support": 13
+    },
+    "hardship": {
+      "precision": 1.0,
+      "recall": 0.667,
+      "f1": 0.8,
+      "support": 9
+    },
+    "cancel": {
+      "precision": 0.923,
+      "recall": 0.857,
+      "f1": 0.889,
+      "support": 14
+    },
+    "dispute": {
+      "precision": 0.8,
+      "recall": 0.571,
+      "f1": 0.667,
+      "support": 7
+    },
+    "wrong_person": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.667,
+      "support": 8
+    },
+    "other": {
+      "precision": 0.191,
+      "recall": 0.75,
+      "f1": 0.305,
+      "support": 12
+    }
+  },
+  "confusion": {
+    "promise_to_pay": {
+      "promise_to_pay": 30,
+      "other": 23
+    },
+    "dispute": {
+      "dispute": 4,
+      "other": 3
+    },
+    "already_paid": {
+      "already_paid": 9,
+      "other": 4
+    },
+    "hardship": {
+      "hardship": 6,
+      "other": 2,
+      "cancel": 1
+    },
+    "other": {
+      "other": 9,
+      "dispute": 1,
+      "promise_to_pay": 1,
+      "already_paid": 1
+    },
+    "cancel": {
+      "cancel": 12,
+      "other": 2
+    },
+    "wrong_person": {
+      "wrong_person": 4,
+      "other": 4
+    }
+  },
+  "errors": [
+    {
+      "id": "r025",
+      "text": "next week pakka",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r029",
+      "text": "Paid just now, pls check",
+      "gold": "already_paid",
+      "pred": "other",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r037",
+      "text": "mera number kisi ne galat diya hoga, main ye account nahi chalata",
+      "gold": "wrong_person",
+      "pred": "other",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r039",
+      "text": "teen din baad karta hu",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": "2026-10-07",
+      "pred_date": null
+    },
+    {
+      "id": "r043",
+      "text": "ho gaya payment",
+      "gold": "already_paid",
+      "pred": "other",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r046",
+      "text": "Bhai kal pakka",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": "2026-10-05",
+      "pred_date": null
+    },
+    {
+      "id": "r053",
+      "text": "1st ko pakka",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": "2026-11-01",
+      "pred_date": null
+    },
+    {
+      "id": "r055",
+      "text": "itna paisa kyu kata? maine toh 199 wala liya tha",
+      "gold": "dispute",
+      "pred": "other",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r073",
+      "text": "Plz retry after 15th",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": "2026-10-15",
+      "pred_date": null
+    },
+    {
+      "id": "r084",
+      "text": "mujhe bataya hi nahi tha ki auto debit hoga",
+      "gold": "dispute",
+      "pred": "other",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r100",
+      "text": "mummy ki surgery hai, abhi kuch nahi bhar sakta",
+      "gold": "hardship",
+      "pred": "other",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r102",
+      "text": "4 din me ho jayega boss",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": "2026-10-31",
+      "pred_date": null
+    },
+    {
+      "id": "r107",
+      "text": "dont message me again",
+      "gold": "cancel",
+      "pred": "other",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r108",
+      "text": "आज ही भर देता हूँ",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": "2026-10-27",
+      "pred_date": null
+    },
+    {
+      "id": "r110",
+      "text": "kal hi bhar diya tha bhai",
+      "gold": "already_paid",
+      "pred": "other",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r111",
+      "text": "6 ko sure",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": "2026-11-06",
+      "pred_date": null
+    },
+    {
+      "id": "r112",
+      "text": "thursday",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": "2026-10-29",
+      "pred_date": null
+    },
+    {
+      "id": "r115",
+      "text": "Retry karo ab, balance hai",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": "2026-10-27",
+      "pred_date": null
+    },
+    {
+      "id": "r117",
+      "text": "agle hafte",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r120",
+      "text": "10 Nov tak",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": "2026-11-10",
+      "pred_date": null
+    },
+    {
+      "id": "r125",
+      "text": "kisne diya mera number? main koi subscription nahi leta",
+      "gold": "wrong_person",
+      "pred": "other",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r126",
+      "text": "1st Oct ko auto debit kar lena",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": "2026-10-01",
+      "pred_date": null
+    },
+    {
+      "id": "r128",
+      "text": "Today itself",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": "2026-09-30",
+      "pred_date": null
+    },
+    {
+      "id": "r130",
+      "text": "ye scam hai kya?",
+      "gold": "other",
+      "pred": "dispute",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r136",
+      "text": "Wednesday ko pakka",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": "2026-10-07",
+      "pred_date": null
+    },
+    {
+      "id": "r140",
+      "text": "maine authorise hi nahi kiya tha ye mandate",
+      "gold": "dispute",
+      "pred": "other",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r142",
+      "text": "Bhai salary credit hote hi auto ho jayega na?",
+      "gold": "other",
+      "pred": "promise_to_pay",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r145",
+      "text": "UPI se bhar diya 199",
+      "gold": "already_paid",
+      "pred": "other",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r147",
+      "text": "beta ye mera phone hai, mera beta use karta hai uska hoga",
+      "gold": "wrong_person",
+      "pred": "other",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r152",
+      "text": "Bhai 14 ko pakka",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": "2026-10-14",
+      "pred_date": null
+    },
+    {
+      "id": "r158",
+      "text": "abhi dukaan band hai, kamai nahi ho rahi",
+      "gold": "hardship",
+      "pred": "other",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r159",
+      "text": "Will try by Friday",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": "2026-10-16",
+      "pred_date": null
+    },
+    {
+      "id": "r160",
+      "text": "Main is plan ko continue nahi karna chahta",
+      "gold": "cancel",
+      "pred": "other",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r162",
+      "text": "Thoda adjust karo bhai, 1 week",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r164",
+      "text": "bank wale ne mandate cancel kar diya shayad, naya link bhejo",
+      "gold": "other",
+      "pred": "already_paid",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r170",
+      "text": "kal subah 10 baje tak",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": "2026-10-28",
+      "pred_date": null
+    },
+    {
+      "id": "r172",
+      "text": "wrong no.",
+      "gold": "wrong_person",
+      "pred": "other",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r173",
+      "text": "abhi nahi hai paise, mai bata dunga jab hoga",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r174",
+      "text": "please stop deducting, I am unemployed now",
+      "gold": "hardship",
+      "pred": "cancel",
+      "gold_date": null,
+      "pred_date": null
+    },
+    {
+      "id": "r175",
+      "text": "Sending now",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": "2026-10-27",
+      "pred_date": null
+    },
+    {
+      "id": "r176",
+      "text": "2 tarik",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": "2026-11-02",
+      "pred_date": null
+    },
+    {
+      "id": "r178",
+      "text": "kya aap date aage badha sakte ho 5 tak?",
+      "gold": "promise_to_pay",
+      "pred": "other",
+      "gold_date": "2026-11-05",
+      "pred_date": null
+    }
+  ]
+}

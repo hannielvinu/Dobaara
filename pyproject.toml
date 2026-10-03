@@ -1,0 +1,13 @@
+[project]
+name = "dobaara"
+version = "0.1.0"
+description = "Compliant recovery of failed UPI AutoPay and eNACH debits"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.0", "fastapi>=0.110", "uvicorn>=0.29", "httpx>=0.27", "pydantic>=2.6"]
+
+[project.optional-dependencies]
+llm = ["anthropic>=1.0"]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
