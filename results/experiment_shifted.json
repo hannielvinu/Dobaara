@@ -1,0 +1,265 @@
+{
+  "arms": {
+    "do_nothing": {
+      "cases": 25000,
+      "due_inr": 49947809.0,
+      "recovered_inr": 8002060.0,
+      "recovery_rate_count": 0.16424,
+      "recovery_rate_value": 0.16020842876211047,
+      "customer_bounce_charges_inr": 0.0,
+      "outreach_per_case": 0.0,
+      "notices_per_case": 0.0,
+      "debit_retries_per_case": 0.0,
+      "cancel_rate": 0.0,
+      "escalation_rate": 0.0,
+      "median_days_to_recover": 13.458333333333334,
+      "blocked_by_gate": 0,
+      "recovered_via": {
+        "organic": 3318,
+        "other_channel": 788
+      }
+    },
+    "naive": {
+      "cases": 25000,
+      "due_inr": 49947809.0,
+      "recovered_inr": 27625560.0,
+      "recovery_rate_count": 0.5548,
+      "recovery_rate_value": 0.5530885248640236,
+      "customer_bounce_charges_inr": 6655790.051979452,
+      "outreach_per_case": 0.98188,
+      "notices_per_case": 2.02248,
+      "debit_retries_per_case": 1.5932,
+      "cancel_rate": 0.03544,
+      "escalation_rate": 0.0,
+      "median_days_to_recover": 1.2083333333333333,
+      "blocked_by_gate": 273,
+      "recovered_via": {
+        "organic": 1434,
+        "other_channel": 745,
+        "payment_link": 2229,
+        "retry": 9462
+      }
+    },
+    "calendar": {
+      "cases": 25000,
+      "due_inr": 49947809.0,
+      "recovered_inr": 37797315.0,
+      "recovery_rate_count": 0.75468,
+      "recovery_rate_value": 0.7567361963765017,
+      "customer_bounce_charges_inr": 2658259.810884076,
+      "outreach_per_case": 0.99876,
+      "notices_per_case": 1.35808,
+      "debit_retries_per_case": 0.98852,
+      "cancel_rate": 0.02908,
+      "escalation_rate": 0.0,
+      "median_days_to_recover": 10.208333333333334,
+      "blocked_by_gate": 84,
+      "recovered_via": {
+        "organic": 1304,
+        "other_channel": 745,
+        "payment_link": 4317,
+        "retry": 12501
+      }
+    },
+    "dobaara": {
+      "cases": 25000,
+      "due_inr": 49947809.0,
+      "recovered_inr": 40015394.0,
+      "recovery_rate_count": 0.79868,
+      "recovery_rate_value": 0.8011441302660544,
+      "customer_bounce_charges_inr": 1535382.7726816176,
+      "outreach_per_case": 1.09268,
+      "notices_per_case": 1.00124,
+      "debit_retries_per_case": 0.84728,
+      "cancel_rate": 0.02892,
+      "escalation_rate": 0.11656,
+      "median_days_to_recover": 10.458333333333334,
+      "blocked_by_gate": 70,
+      "recovered_via": {
+        "organic": 1239,
+        "other_channel": 745,
+        "payment_link": 3933,
+        "retry": 14050
+      }
+    }
+  },
+  "uplift": {
+    "dobaara_vs_naive": {
+      "total": 12389834.0,
+      "ci95": [
+        11843566.325,
+        12914790.75
+      ],
+      "per_1000_cases": 495593.36000000004
+    },
+    "dobaara_vs_calendar": {
+      "total": 2218079.0,
+      "ci95": [
+        1887448.75,
+        2544485.425
+      ],
+      "per_1000_cases": 88723.15999999999
+    },
+    "dobaara_vs_do_nothing": {
+      "total": 32013334.0,
+      "ci95": [
+        31286442.15,
+        32716287.25
+      ],
+      "per_1000_cases": 1280533.3599999999
+    },
+    "naive_vs_do_nothing": {
+      "total": 19623500.0,
+      "ci95": [
+        19031461.575,
+        20203665.5
+      ],
+      "per_1000_cases": 784940.0
+    },
+    "calendar_vs_naive": {
+      "total": 10171755.0,
+      "ci95": [
+        9666542.175,
+        10690659.975
+      ],
+      "per_1000_cases": 406870.2
+    }
+  },
+  "harm_delta": {
+    "dobaara_vs_naive": {
+      "total": -5120407.279297835,
+      "ci95": [
+        -5286126.516528487,
+        -4952634.315224547
+      ],
+      "per_1000_cases": -204816.2911719134
+    },
+    "dobaara_vs_calendar": {
+      "total": -1122877.0382024585,
+      "ci95": [
+        -1224764.317715583,
+        -1022353.8658764211
+      ],
+      "per_1000_cases": -44915.081528098344
+    },
+    "dobaara_vs_do_nothing": {
+      "total": 1535382.7726816176,
+      "ci95": [
+        1455369.2507317928,
+        1617629.4764577723
+      ],
+      "per_1000_cases": 61415.310907264706
+    },
+    "naive_vs_do_nothing": {
+      "total": 6655790.051979452,
+      "ci95": [
+        6468646.654463874,
+        6828385.129983556
+      ],
+      "per_1000_cases": 266231.6020791781
+    },
+    "calendar_vs_naive": {
+      "total": -3997530.241095376,
+      "ci95": [
+        -4160588.337954362,
+        -3840694.533004334
+      ],
+      "per_1000_cases": -159901.20964381503
+    }
+  },
+  "recovery_rate_by_failure_class": {
+    "account_blocked": {
+      "do_nothing": 0.14773869346733667,
+      "naive": 0.3969849246231156,
+      "calendar": 0.3969849246231156,
+      "dobaara": 0.3969849246231156
+    },
+    "insufficient_funds": {
+      "do_nothing": 0.1646183699870634,
+      "naive": 0.560025873221216,
+      "calendar": 0.8432729624838292,
+      "dobaara": 0.8883570504527813
+    },
+    "limit_exceeded": {
+      "do_nothing": 0.16493775933609958,
+      "naive": 0.40560165975103735,
+      "calendar": 0.40560165975103735,
+      "dobaara": 0.40560165975103735
+    },
+    "mandate_inactive": {
+      "do_nothing": 0.16512655685014063,
+      "naive": 0.4106066693451185,
+      "calendar": 0.4106066693451185,
+      "dobaara": 0.5094415427882684
+    },
+    "risk_decline": {
+      "do_nothing": 0.16768916155419222,
+      "naive": 0.38650306748466257,
+      "calendar": 0.38650306748466257,
+      "dobaara": 0.38650306748466257
+    },
+    "technical": {
+      "do_nothing": 0.16074923119932905,
+      "naive": 0.6922001677383282,
+      "calendar": 0.8216382443388314,
+      "dobaara": 0.886776628459603
+    },
+    "unknown": {
+      "do_nothing": 0.18226120857699804,
+      "naive": 0.7202729044834308,
+      "calendar": 0.8713450292397661,
+      "dobaara": 0.797270955165692
+    }
+  },
+  "split": "shifted",
+  "calibration": "shifted",
+  "seeds": [
+    200,
+    201,
+    202,
+    203,
+    204
+  ],
+  "cases_per_seed": 5000,
+  "parser": {
+    "name": "baseline(dev-measured)",
+    "promise_date_exact": 0.925
+  },
+  "compliance": {
+    "do_nothing": {
+      "violations": 0,
+      "actions_checked": 0,
+      "chain_ok": true
+    },
+    "naive": {
+      "violations": 0,
+      "actions_checked": 116232,
+      "chain_ok": true
+    },
+    "calendar": {
+      "violations": 0,
+      "actions_checked": 84730,
+      "chain_ok": true
+    },
+    "dobaara": {
+      "violations": 0,
+      "actions_checked": 77462,
+      "chain_ok": true
+    }
+  },
+  "payday_inference": {
+    "with_network": {
+      "customers": 10444,
+      "mae_days": 0.8513021830716201,
+      "within_1_day": 0.858674837227116,
+      "within_3_days": 0.9821907315204902
+    },
+    "merchant_only": {
+      "customers": 10444,
+      "mae_days": 4.803332056683263,
+      "within_1_day": 0.406644963615473,
+      "within_3_days": 0.5058406740712371
+    }
+  },
+  "runtime_s": 181.3
+}

@@ -21,6 +21,17 @@ def _canonical(obj: Any) -> str:
     return json.dumps(obj, sort_keys=True, separators=(",", ":"), ensure_ascii=False, default=_default)
 
 
+def _ints(o: Any) -> Any:
+    """Store whole-number floats as ints so any JSON tool (e.g. a browser) re-hashes identically."""
+    if isinstance(o, float) and o.is_integer():
+        return int(o)
+    if isinstance(o, dict):
+        return {k: _ints(v) for k, v in o.items()}
+    if isinstance(o, list):
+        return [_ints(v) for v in o]
+    return o
+
+
 def _default(o: Any) -> Any:
     if isinstance(o, datetime):
         return o.isoformat()
@@ -67,7 +78,7 @@ class Ledger:
         return self.records[-1].hash if self.records else GENESIS
 
     def append(self, case_id: str, event: str, at: datetime, **data: Any) -> Record:
-        clean = json.loads(_canonical(data))
+        clean = _ints(json.loads(_canonical(data)))
         seq = len(self.records)
         at_s = at.isoformat()
         rec = Record(seq, at_s, case_id, event, clean, self.head, _digest(seq, at_s, case_id, event, clean, self.head))

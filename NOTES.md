@@ -66,3 +66,26 @@ Estimating a customer's payday from one merchant's debit history alone: mean err
 one day for 53% of customers. Adding the customer's payments to other merchants (which only the
 payment network sees): mean error 0.78 days, within one day for 88%. This is the clearest argument
 for this living inside Razorpay rather than inside each merchant.
+
+## 7. Held-out runs: two of my own features turned out not to matter
+
+Run once each after freeze ([HELDOUT_LOG.md](HELDOUT_LOG.md)). The headline held: Dobaara beats the
+salary-day heuristic by ₹1,24,735 per 1,000 failed debits (CI ₹1,15,802 – ₹1,34,501), and still
+by ₹88,723 in the shifted world. The ablations were less kind:
+
+- **Harm-aware stopping did nothing.** Removing it gives identical results. With a 35% odds floor,
+  the expected-value check only bites when the due is tiny relative to the bank charge, and eNACH
+  dues are usually large. The 85% cut in bank charges comes from timing. I kept the rule as a
+  guard but stopped claiming it as the cause.
+- **Without network history Dobaara loses to fixed daily retries** (49.3% vs 53.8% of value). That
+  is the most important result in the repo: the method needs Razorpay's view of a customer's other
+  payments. It is not something a single merchant can run.
+- **A perfect parser adds ~₹3,500 per 1,000 cases.** The parser's job is consent and routing, not money.
+
+## 8. The live console ran events out of order
+
+Opening six demo cases jumped the engine clock to the latest failure date, so a customer's reply was
+logged on 27 Oct while their case's 17–18 Oct actions had not run yet. When those ran, the
+failed-retry handler replaced the plan built from the reply ("5 tarik ko"), and the promise was
+lost. Fix: cases now open in time order, running everything already due before each one. A
+regression test asserts the audit log is chronological across a multi-case demo.

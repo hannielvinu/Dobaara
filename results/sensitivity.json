@@ -1,0 +1,170 @@
+{
+  "irregular_income_share": [
+    {
+      "value": 0.1,
+      "uplift_per_1000": 431216.8333333333,
+      "uplift_ci95_per_1000": [
+        395993.85000000003,
+        468255.97083333327
+      ],
+      "harm_delta_per_1000": -134341.79428408714,
+      "dobaara_beats_naive": true
+    },
+    {
+      "value": 0.18,
+      "uplift_per_1000": 417069.5,
+      "uplift_ci95_per_1000": [
+        381179.9125,
+        455021.6624999999
+      ],
+      "harm_delta_per_1000": -132048.7754875143,
+      "dobaara_beats_naive": true
+    },
+    {
+      "value": 0.3,
+      "uplift_per_1000": 399367.6666666666,
+      "uplift_ci95_per_1000": [
+        363272.1583333334,
+        436019.3333333334
+      ],
+      "harm_delta_per_1000": -126005.5264667108,
+      "dobaara_beats_naive": true
+    },
+    {
+      "value": 0.5,
+      "uplift_per_1000": 351153.3333333333,
+      "uplift_ci95_per_1000": [
+        315258.675,
+        388259.7375
+      ],
+      "harm_delta_per_1000": -116458.82534029504,
+      "dobaara_beats_naive": true
+    }
+  ],
+  "reply_rate_multiplier": [
+    {
+      "value": 0.25,
+      "uplift_per_1000": 435428.5,
+      "uplift_ci95_per_1000": [
+        399195.4541666667,
+        473292.23749999993
+      ],
+      "harm_delta_per_1000": -133525.4970809666,
+      "dobaara_beats_naive": true
+    },
+    {
+      "value": 0.5,
+      "uplift_per_1000": 430175.0,
+      "uplift_ci95_per_1000": [
+        393515.8333333333,
+        467892.3916666667
+      ],
+      "harm_delta_per_1000": -132015.00708397172,
+      "dobaara_beats_naive": true
+    },
+    {
+      "value": 1.0,
+      "uplift_per_1000": 417069.5,
+      "uplift_ci95_per_1000": [
+        381179.9125,
+        455021.6624999999
+      ],
+      "harm_delta_per_1000": -132048.7754875143,
+      "dobaara_beats_naive": true
+    },
+    {
+      "value": 1.5,
+      "uplift_per_1000": 396813.1666666667,
+      "uplift_ci95_per_1000": [
+        361422.9291666667,
+        433256.8958333333
+      ],
+      "harm_delta_per_1000": -131251.68170239363,
+      "dobaara_beats_naive": true
+    }
+  ],
+  "enach_bounce_inr": [
+    {
+      "value": 250.0,
+      "uplift_per_1000": 417069.5,
+      "uplift_ci95_per_1000": [
+        381179.9125,
+        455021.6624999999
+      ],
+      "harm_delta_per_1000": -75333.33333333333,
+      "dobaara_beats_naive": true
+    },
+    {
+      "value": 354.0,
+      "uplift_per_1000": 417069.5,
+      "uplift_ci95_per_1000": [
+        381179.9125,
+        455021.6624999999
+      ],
+      "harm_delta_per_1000": -106672.0,
+      "dobaara_beats_naive": true
+    },
+    {
+      "value": 472.0,
+      "uplift_per_1000": 417069.5,
+      "uplift_ci95_per_1000": [
+        381179.9125,
+        455021.6624999999
+      ],
+      "harm_delta_per_1000": -142229.33333333334,
+      "dobaara_beats_naive": true
+    },
+    {
+      "value": 590.0,
+      "uplift_per_1000": 417069.5,
+      "uplift_ci95_per_1000": [
+        381179.9125,
+        455021.6624999999
+      ],
+      "harm_delta_per_1000": -177786.66666666666,
+      "dobaara_beats_naive": true
+    }
+  ],
+  "annoyance_multiplier": [
+    {
+      "value": 0.0,
+      "uplift_per_1000": 420712.6666666667,
+      "uplift_ci95_per_1000": [
+        384629.1041666666,
+        458519.3666666666
+      ],
+      "harm_delta_per_1000": -132048.7754875143,
+      "dobaara_beats_naive": true
+    },
+    {
+      "value": 1.0,
+      "uplift_per_1000": 417069.5,
+      "uplift_ci95_per_1000": [
+        381179.9125,
+        455021.6624999999
+      ],
+      "harm_delta_per_1000": -132048.7754875143,
+      "dobaara_beats_naive": true
+    },
+    {
+      "value": 2.0,
+      "uplift_per_1000": 409910.8333333334,
+      "uplift_ci95_per_1000": [
+        374292.4583333334,
+        447961.60833333334
+      ],
+      "harm_delta_per_1000": -132179.50449481985,
+      "dobaara_beats_naive": true
+    },
+    {
+      "value": 3.0,
+      "uplift_per_1000": 402562.6666666666,
+      "uplift_ci95_per_1000": [
+        365518.74583333335,
+        440206.40833333327
+      ],
+      "harm_delta_per_1000": -132261.9813035563,
+      "dobaara_beats_naive": true
+    }
+  ]
+}
