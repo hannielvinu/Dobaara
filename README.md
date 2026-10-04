@@ -177,4 +177,4 @@ Optional: `RAZORPAY_KEY_ID` / `RAZORPAY_KEY_SECRET` (test keys), `RAZORPAY_WEBHO
 | [web/](web) | dashboard built with Razorpay's Blade design system |
 | [results/](results) | every number in this README |
 
-Built by Hanniel Vinu. Not affiliated with Razorpay; Blade is Razorpay's open-source (MIT) design system.
+Built by Hanniel Vinu; Blade is Razorpay's open-source (MIT) design system.
